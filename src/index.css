@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Custom DAW Audio Workstation Scrollbars and Sliders */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Range input audio fader styling */
+input[type="range"] {
+  accent-color: #f59e0b;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  cursor: pointer;
+}

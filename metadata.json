@@ -1,0 +1,10 @@
+{
+  "name": "Stooper Looper",
+  "description": "A 4-track audio looping workstation with microphone recording, click track metronome, interactive waveform editing, horizontal drag alignment, mixer controls, and high-quality MP3 export.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
